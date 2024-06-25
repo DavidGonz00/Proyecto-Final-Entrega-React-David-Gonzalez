@@ -1,0 +1,89 @@
+.card-list {
+  width: 18rem; /* Ancho fijo para cada tarjeta */
+  height: 530px; /* Altura fija para todas las tarjetas */
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease; /* Transición suave para la sombra */
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta la sombra al pasar el mouse */
+}
+
+.card-list-img {
+  width: 100%;
+  height: 230px; /* Altura fija para las imágenes */
+  object-fit: cover;
+  border-radius: 10px 8px 0 0;
+  transition: transform 0.3s ease; /* Transición suave para la imagen */
+}
+
+.card-list-img:hover {
+  transform: scale(1.05); /* Escala la imagen al pasar el mouse */
+}
+
+.card-list-body {
+  padding: 1.5rem;
+}
+
+.card-list-name {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.card-list-description {
+  font-size: 0.88rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.card-list-text {
+  font-size: 0.875rem;
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+
+.stock-list-container {
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.container-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .container-card {
+    justify-content: flex-start; /* Cambia a alineación horizontal en dispositivos pequeños */
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+    width: 100%; /* Cambia el ancho al 100% en dispositivos móviles */
+  }
+}

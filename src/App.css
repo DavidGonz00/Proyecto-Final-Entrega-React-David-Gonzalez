@@ -1,0 +1,109 @@
+.navbar {
+    background-color: #7addb0; 
+   height: 90px ;
+  }
+  .cart-icon {
+    position: relative;
+    margin-right: 20px;
+    cursor: pointer;
+    
+  }
+  
+  .notification-bubble {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+  }
+  
+  .item-list-container {
+    background-color: lightblue;
+    width: 100%;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .item-list-container p {
+    font-size: 18px;
+    color: darkblue;
+  }
+  
+  
+  .item-list-container-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px; 
+  }
+  
+  
+  .card-list {
+    width: 200px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .card-img-list {
+    width: 100%;
+    height: 250px; 
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    filter: brightness(90%); 
+  }
+  
+  .card-img-list:hover {
+    filter: brightness(100%); 
+  }
+  
+  
+  .card-body-list {
+    padding: 15px;
+  }
+  
+  .card-title-list {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .card-description-list {
+    font-size: 0.8rem; 
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .card-price-list {
+    font-size: 0.8rem; 
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .card-stock-list {
+    font-size: 0.8rem; 
+    margin-bottom: 10px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px; 
+    font-size: 0.8rem; 
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  

@@ -1,0 +1,58 @@
+.item-detail-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Altura completa de la ventana */
+    padding: 20px; /* Espacio alrededor del contenido */
+    background-color: #b6d8bd; /* Fondo ligero para la página */
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: row; /* Alinear elementos en fila */
+    height: 500px;
+    width: 1000px;
+    max-width: 1200px; /* Ancho máximo de la tarjeta */
+    margin: 20px; /* Margen exterior */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  .card-img {
+    width: 500px; /* Ancho fijo para la imagen */
+    height: 500px; /* Altura fija para la imagen */
+    object-fit: cover; /* Ajusta la imagen para cubrir el contenedor */
+    border-top-left-radius: 15px; /* Redondear la esquina superior izquierda */
+    border-bottom-left-radius: 15px; /* Redondear la esquina inferior izquierda */
+  }
+  
+  .card-body {
+    flex: 1; /* Ocupar todo el espacio restante */
+    padding: 20px; /* Espacio interno */
+    display: flex;
+    flex-direction: column; /* Alinear elementos en columna */
+    justify-content: center; /* Centrar verticalmente */
+  }
+  
+  .card-name {
+    font-size: 1.9rem; /* Tamaño de fuente para el nombre */
+    margin-bottom: 10px; /* Espacio inferior */
+  }
+  
+  .card-description {
+    font-size: 1.1rem; /* Tamaño de fuente para la descripción */
+    color: #333; /* Color de texto */
+    margin-bottom: 10px; /* Espacio inferior */
+  }
+  
+  .card-price {
+    font-size: 1.2rem; /* Tamaño de fuente para el precio */
+    color: #007bff; /* Color de precio */
+    margin-bottom: 10px; /* Espacio inferior */
+  }
+  
+  .card-stock {
+    font-size: 1.1rem; /* Tamaño de fuente para el stock */
+    margin-bottom: 10px; /* Espacio inferior */
+  }
+  
